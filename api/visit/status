@@ -2,5 +2,18 @@
   "protocol": "khmap-visit/1",
   "enabled": true,
   "site_url": "https://kmuftp-creater.github.io",
-  "joined": []
+  "joined": [
+    {
+      "protocol": "khmap-visit/1",
+      "site_url": "https://visit-test.08009527.xyz",
+      "api_url": "https://visit-test.08009527.xyz",
+      "name": {
+        "zh": "串門子測試站 B",
+        "en": "Visit Test Site B"
+      },
+      "color": "#ff8fab",
+      "kind": "other",
+      "joined_at": 1795727808812
+    }
+  ]
 }
