@@ -1,0 +1,8 @@
+{
+  "protocol": "khmap-visit/1",
+  "site_url": "https://kmuftp-creater.github.io",
+  "api_url": "https://kmuftp-creater.github.io",
+  "name": { "zh": "串門子測試站 A", "en": "Visit Test Site A" },
+  "color": "#4f8cff",
+  "kind": "other"
+}

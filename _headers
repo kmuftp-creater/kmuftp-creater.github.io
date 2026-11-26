@@ -1,0 +1,4 @@
+# Netlify 專用（GitHub Pages 忽略此檔，可刪除）。
+# 沒有副檔名的 status 檔，Netlify 如何決定 Content-Type 未查證；明確指定為 JSON。
+/api/visit/status
+  Content-Type: application/json; charset=utf-8

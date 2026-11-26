@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>串門子測試站 A</title>
+<style>
+:root { color-scheme: light dark; --bg: #fafaf7; --fg: #222; --muted: #666; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1b1b1d; --fg: #eee; --muted: #aaa; } }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: system-ui, "Noto Sans TC", sans-serif; line-height: 1.7; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px; }
+h1 { font-size: 1.6rem; margin: 0 0 8px; }
+p { color: var(--muted); }
+footer { max-width: 720px; margin: 0 auto; padding: 16px; color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>串門子測試站 A</h1>
+<p>這是串門子協定 khmap-visit/1 的測試站，用來驗證靜態主機能登記名冊、被列出、互相加入與點擊開啟。</p>
+<h2>鄰居</h2>
+<div id="khmap-visit"></div>
+</main>
+<footer>©2026 霍家私塾</footer>
+<script src="visit-widget.js" data-status="https://kmuftp-creater.github.io/api/visit/status" defer></script>
+</body>
+</html>
